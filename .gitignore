@@ -1,0 +1,62 @@
+# Unreal Engine - carpetas generadas
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Plugins: ignorar lo generado dentro de cada plugin
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Archivos de proyecto generados (se regeneran desde el .uproject)
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+.vsconfig
+
+# Compilados y debug
+*.exe
+*.dll
+*.exp
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.app
+*.apk
+*.aab
+*.ipa
+*.opensdf
+*.VC.db
+
+# Cache de assets compartidos
+.ue4-gitdb/
+*.uasset.bak
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Crash reports
+crashinfo-*
+*.dmp
